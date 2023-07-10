@@ -54,6 +54,7 @@ pallet-template = { version = "4.0.0-dev", default-features = false, path = "../
 pallet-scheduler = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
 pallet-preimage = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
 pallet-collective = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+pallet-democracy = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
 
 [build-dependencies]
 substrate-wasm-builder = { version = "5.0.0-dev", git = "https://github.com/paritytech/substrate.git", optional = true, branch = "polkadot-v0.9.42" }
@@ -74,6 +75,7 @@ std = [
 	"pallet-aura/std",
 	"pallet-balances/std",
 	"pallet-collective/std",
+	"pallet-democracy/std",
 	"pallet-grandpa/std",
 	"pallet-preimage/std",
 	"pallet-sudo/std",
@@ -102,6 +104,7 @@ runtime-benchmarks = [
 	"frame-system/runtime-benchmarks",
 	"pallet-balances/runtime-benchmarks",
 	"pallet-collective/runtime-benchmarks",
+	"pallet-democracy/runtime-benchmarks",
 	"pallet-grandpa/runtime-benchmarks",
 	"pallet-scheduler/runtime-benchmarks",
 	"pallet-preimage/runtime-benchmarks",
@@ -117,6 +120,7 @@ try-runtime = [
 	"pallet-aura/try-runtime",
 	"pallet-balances/try-runtime",
 	"pallet-collective/try-runtime",
+	"pallet-democracy/try-runtime",
 	"pallet-grandpa/try-runtime",
 	"pallet-scheduler/try-runtime",
 	"pallet-preimage/try-runtime",
