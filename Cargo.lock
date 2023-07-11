@@ -4474,7 +4474,11 @@ dependencies = [
  "pallet-timestamp",
  "pallet-transaction-payment",
  "pallet-transaction-payment-rpc-runtime-api",
+<<<<<<< HEAD
  "pallet-utility",
+=======
+ "pallet-treasury",
+>>>>>>> 5d02f49b7a9fcded05a20bace22bfd0be7879db1
  "parity-scale-codec",
  "scale-info",
  "sp-api",
@@ -4951,17 +4955,29 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "pallet-utility"
+=======
+name = "pallet-treasury"
+>>>>>>> 5d02f49b7a9fcded05a20bace22bfd0be7879db1
 version = "4.0.0-dev"
 source = "git+https://github.com/paritytech/substrate.git?branch=polkadot-v0.9.42#ff24c60ac7d9f87727ecdd0ded9a80c56e4f4b65"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
  "frame-system",
+<<<<<<< HEAD
  "parity-scale-codec",
  "scale-info",
  "sp-core",
  "sp-io",
+=======
+ "impl-trait-for-tuples",
+ "pallet-balances",
+ "parity-scale-codec",
+ "scale-info",
+ "serde",
+>>>>>>> 5d02f49b7a9fcded05a20bace22bfd0be7879db1
  "sp-runtime",
  "sp-std",
 ]
